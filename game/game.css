@@ -19,7 +19,7 @@
     position: absolute;
     width: 25px;
     height: 25px;
-    border: 3px none;
+    border: 1px solid black;
     border-radius: 5px;
 }
 

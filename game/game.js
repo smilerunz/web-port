@@ -1,6 +1,7 @@
 window.onload = pageLoad;
 
 function pageLoad() {
+    hamclickFunction();
     var btnStart = document.getElementById('start');
     btnStart.onclick = startGame;
 }
@@ -73,5 +74,22 @@ function clearScreen() {
     //delete all  squares
     for (var i = 0; i < allbox.length; i++) {
         containerBox.removeChild(allbox[i]);
+    }
+}
+
+
+
+
+
+function hamclickFunction() {
+    let BtnOnclick = document.getElementById('clickon');
+    let containerOnclick = document.getElementsByClassName('hamburger');
+    let navbarInside = document.getElementsByClassName('navbar-inside');
+    let containernavbar = document.getElementsByClassName('container-navbar');
+    BtnOnclick.onclick = function() {
+        containerOnclick[0].classList.toggle("change");
+        navbarInside[0].classList.toggle("navbar-inside-open");
+        containernavbar[0].classList.toggle("container-navbar-open");
+
     }
 }
