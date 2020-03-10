@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Square game</title>
+    <script type="text/javascript" src="game.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+    <div class="container-navbar">
+        <div class="hamburger" id="clickon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="navbar-inside">
+            <div class="navbar-grid ">
+                <div class="navbar-item ">
+                    <ul class="menu  ">
+                        <a class="" href="../index.html">Portfolio</a>
+                        <a class="" href="../project.html">Project</a>
+
+                        <div class="dropdown">
+                            <button class=" dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Homework
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item " href="../chicken/chicken.html">Chicken</a>
+                                <a class="dropdown-item" href="../blog/blog.html">Blog</a>
+                                <a class="dropdown-item" href="../register/register.html">Register & login</a>
+                                <a class="dropdown-item text-white" href="../game/game.html">Game</a>
+                            </div>
+                        </div>
+                        <a class="" href="../references/ref.html">References</a>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- these codes were adapted from https://courses.cs.washington.edu/courses/cse154/17sp/lecture/more-dom/code/squares.html  -->
+
+    <fieldset>
+        <legend>Control</legend>
+        Number of box:
+        <input class="boxinput" type="text" name="numbox" id="numbox">
+        <select name="color" id="color">
+  				<option value="red">Red</option>
+  				<option value="blue">Blue</option>
+  				<option value="green">Green</option>
+			</select>
+        <button class="boxstart" id="start">Start</button>
+        <div id="timerClock"> Timer:
+            <div id="clock"></div>
+        </div>
+    </fieldset>
+
+
+
+
+    <div id="squares-container">
+        <div id="squares-layer"></div>
+    </div>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

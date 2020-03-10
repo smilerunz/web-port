@@ -1,0 +1,69 @@
+#post1 {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 7px 3px 14px -6px rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    margin-top: 30px;
+    margin-right: 70%;
+    font-family: open sans;
+    font-size: 20px;
+    color: black;
+}
+
+#reply1 {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 7px 3px 14px -6px rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 65%;
+    font-size: 15px;
+    font-family: open sans;
+    color: rgb(100, 100, 100);
+}
+
+#reply2 {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 7px 3px 14px -6px rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 65%;
+    font-size: 15px;
+    font-family: open sans;
+    color: rgb(100, 100, 100);
+}
+
+#text1 {
+    font-size: 20px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 7px 3px 14px -6px rgba(0, 0, 0, 0.75);
+    padding: 5px;
+    padding-right: 20%;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.move button {
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 7px 3px 14px -6px rgba(0, 0, 0, 0.75);
+}
+
+.post {
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+.clear {
+    background-color: crimson;
+    color: white;
+}
